@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f2dada;
+  color: #121212;
+}
+
+nav {
+  background: #03ca74;
+  color: #080808;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: rgb(252, 252, 252);
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.hero {
+  padding: 40px;
+  text-align: center;
+  background: linear-gradient(120deg, #54a4d9, #cc67f7);
+  color: rgb(255, 255, 255);
+}
+
+section {
+  padding: 40px;
+  max-width: 750px;
+  margin: auto;
+}
+
+section h2 {
+  margin-bottom: 15px;
+  color: #480303;
+}
+
+.project {
+  background: rgb(255, 255, 255);
+  padding: 15px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+/* Resume Section Styling */ 
+#resume h2 {
+  color: #460303;
+  margin-bottom: 15px;
+}
+
+.resume-box {
+  background: #f3eaea;
+  padding: 2px;
+  border-radius: 15px;
+  line-height: 1.7;
+  font-size: 16px;
+  border-left: 5px solid #03ca74;
+  border-right: 5px solid #03ca74;
+}
+
+.resume-box p {
+  margin: 9px 5;
+  font-weight: 600;
+}
+
+.resume-box span {
+  font-weight: normal;
+  color: #442b2b;
+}
+
+#resume a {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  background: #03ca74;
+  color: rgb(242, 238, 238);
+  padding: 5px 12px;
+  border-radius: 10px;
+}
+
+#resume a:hover {
+  background: #8ee4c2;
+  transform: scale(1.05);
+}
+
+#reviews textarea {
+  width: 95%;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  border-left: 5px solid #03ca74;
+  border-right: 5px solid #03ca74;
+}
+
+
+#contact form input,
+#contact form textarea {
+  width: 90%;
+  padding: 9px;
+  margin-bottom: 15px;
+  border: 1px solid #f47a7a;
+  border-radius: 10px;
+}
+
+#contact button {
+  padding: 10px 20px;
+  background: #1097f1;
+  border: none;
+  color: rgb(227, 227, 227);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #aa9d9d;
+  color: white;
+  margin-top: 20px;
+}

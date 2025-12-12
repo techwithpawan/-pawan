@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header id="home">
+    <nav>
+      <h1>YOUR NAME</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="hero">
+      <h2><marquee scrollamount="14"><h1>MY PORTFOLIO</h1></marquee>Hi, I'm a Web Developer</h2>
+      <p>I build simple and clean websites.</p>
+    </section>
+  </header>
+
+  <section id="about">
+    <h2>⚫ Student at KIET GROUP OF INSTITUTIONS :</h2>
+    <p>I complete my 12th from FATIMA SCHOOL, TAJOPUR , MAU . 
+        Now, I currently study B.TECH in INFORMATION TECHNOLOGY in KIET GROUP OF INSTITUTIONS , GHAZIABAD .</p>
+  </section>
+
+  <section id="skills">
+    <h2>⚫ Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>C / Embedded basics</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>⚫ Projects</h2>
+    <div class="project">
+      <h3>Project 1</h3>
+      <p>
+        <br>➛TITLE:
+      <br></br> Personal Portfolio Website</p>
+
+    <br>➛Description:
+   <br><br>I created a multi-page portfolio website using HTML, CSS, and JavaScript. It includes Home, About, Skills, Projects, Blog, Resume, and Contact pages. This project helped me understand layout design, navigation menus, and how to structure a professional website.</br>
+
+<br>🔹What I learned:</br>
+
+<br>🔹HTML structure</br>
+
+<br>🔹CSS styling and design</br>
+
+<br>🔹Linking multiple pages</br>
+
+<br>🔹Creating responsive layout</p>
+    </div>
+  </section>
+
+  <section id="blog">
+    <h2>⚫ Blog</h2>
+    <div id="blog-posts"> <br>🔸Title:</div> 
+       <br> My B.Tech Learning Experience .
+
+       <br>🔸Content:
+     <br>I am currently studying at KIET Group of Institutions.
+         In the first year, I learned programming basics like C language and problem solving.
+         I also started learning web development on my own to improve my skills.</div>
+  </section>
+ <section id="resume">
+  <h2>⚫ Resume</h2>
+
+  <div class="resume-box">
+    <p>🔸Name: <span contenteditable="true"></span></p>
+    <p>🔸Location: <span contenteditable="true"></span></p>
+    <p>🔸Phone: <span contenteditable="true"></span></p>
+    <p>🔸Email: <span contenteditable="true"></span></p>
+  </div>
+
+  <a href="resume.pdf" download>
+    <br>Download My Resume
+  </a>
+</section>
+
+
+  <section id="reviews">
+  <h2>
+    ⚫ Reviews</h2>
+  <p>Did you like my portfolio? Leave a review:</p>
+
+  <br><textarea id="reviewText" placeholder="Write your review here"></textarea>
+  <button onclick="addReview()">Submit Review</button>
+  <div id="reviewList"></div>
+</section>
+
+
+  <section id="contact">
+  <h2>⚫ Contact</h2>
+
+  <form action="mailto:iampawan7275@gmail.com" method="POST" enctype="text/plain">
+    <input type="text" name="name" placeholder="YOUR NAME" required />
+    <input type="email" name="email" placeholder="Your email address" required />
+    <textarea name="message" placeholder="Message" required></textarea>
+
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+
+  <footer>
+    <p>© 2025 Your Name</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
